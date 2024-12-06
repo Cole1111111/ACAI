@@ -1,4 +1,5 @@
 // Main RGB Matrix Animation | Ian Made This! Alex added a little... | Last Updated 11-12-2024
+// This was the original test for the cube animation
 
 // Include the RGB Matrix Panel Library
 #include <RGBmatrixPanel.h>
