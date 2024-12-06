@@ -57,18 +57,20 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-To run the project on the Arduino Uno, follow these steps:
+To run the project on the Metro M4, follow these steps:
 
-1. Connect your Arduino Uno to your computer via USB.
-2. Upload the code to the Arduino Uno using PlatformIO:
+1. Connect your Metro M4 to your computer via USB.
+
+2. Upload the code to the Metro M4 using PlatformIO:
     ```sh
     pio run --target upload
     ```
-    Or use Visual Studio Code extension to call the upload function
+    Or use Visual Studio Code extension to call the upload function. Using the Visual Studio Code extension for PlatformIO is highly recommended! It creates a tab in VSCode to make this upload process a one-click button. **Make sure to select either the default folder or the Metro M4 folder when accessing these features!**
    
-4. Make sure to follow the hardware setup instructions provided in the documentation.
+4. Make sure to follow the hardware setup instructions provided in the documentation! The project is pre-configured, but if rewiring needs to be done, follow the pinout guide in pins.txt. The site for the display we are using also has a handy pinout guide which can be found here:
 
-Using the Visual Studio Code extension for PlatformIO is highly recommended! It creates a tab in VSCode to make this process a one-click button.
+[RGB Panel Hookup Guide](https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide)
+
 
 ## Contributing
 
